@@ -1,7 +1,7 @@
 namespace :gitlab do
   desc "GitLab | Setup production application"
   task setup: :gitlab_environment do
-    check_gitaly_connection
+    # check_gitaly_connection
     setup_db
   end
 
