@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/SiriusTsou/omniauth-ethauth.git
+  revision: 818e862f9cc45e4ffb116d943ac30313356d15a6
+  specs:
+    omniauth-ethauth (1.0.0)
+      omniauth (~> 1.5)
+      omniauth-oauth2 (>= 1.4.0, < 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -535,9 +543,6 @@ GEM
       addressable (~> 2.3)
       nokogiri (~> 1.7, >= 1.7.1)
       omniauth (~> 1.2)
-    omniauth-ethauth (1.4.0)
-      omniauth-oauth (~> 1.1)
-      rack
     omniauth-facebook (4.0.0)
       omniauth-oauth2 (~> 1.2)
     omniauth-github (1.3.0)
@@ -1090,6 +1095,7 @@ DEPENDENCIES
   omniauth-authentiq (~> 0.3.3)
   omniauth-azure-oauth2 (~> 0.0.9)
   omniauth-cas3 (~> 1.1.4)
+  omniauth-ethauth!
   omniauth-facebook (~> 4.0.0)
   omniauth-github (~> 1.3)
   omniauth-gitlab (~> 1.0.2)
@@ -1190,4 +1196,4 @@ DEPENDENCIES
   wikicloth (= 0.8.1)
 
 BUNDLED WITH
-   1.16.4
+   1.16.6
